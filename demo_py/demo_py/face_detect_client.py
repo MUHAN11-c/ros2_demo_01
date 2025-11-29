@@ -36,6 +36,7 @@ class FaceDetectClient(Node):
         cv2.imshow("Face Locations", self.image)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
+        
 
 
 
